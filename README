@@ -1,0 +1,11 @@
+# cisc275-fall2019-first-git
+1. Create java files to make this code compile and run.
+
+2. What five objects are created in the main?
+    1. A list of dogs called "dogs"
+    2. Three Dog objects that are added to the list
+    3. The Comparator class instance
+3. Can you spot the Comparator constructor call? Where is the class definition for the Comparator?
+    The constructor call occurs on line 16 of MyCompare3.java in the Collections.sort() call. The specific text is "new Comparator<Animal>()".
+
+    The Comparator definition occurs on lines 16 through 21 of MyCompare3.java.
